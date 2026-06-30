@@ -1,0 +1,53 @@
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ── Logs ──
+logs/
+
+# ── Batch pipeline intermediates ──
+batch_input/
+batch_input_bt/
+batch_input_ch/
+batch_results/
+batch_results_bt/
+batch_results_ch/
+*_manifest.json
+
+# ── Pipeline outputs (regenerated, large) ──
+tbl_taxonomy_base.csv
+tbl_taxonomy_base_enriched.csv
+Normalized_spend_enriched.csv
+distinct_suppliers_classified.csv
+distinct_suppliers_enriched.csv
+supplier_context.csv
+supplier_sic.csv
+ch_exact*.csv
+ch_candidates*.csv
+ch_probe_pairs.csv
+ch_segmented_out.csv
+ch_no_match.csv
+ch_match_report.txt
+
+# ── Large data files (too big for git) ──
+Normalized_spend.csv
+Companies_House_companies_list.csv
+total_spend_base.csv
+*.parquet
+ch_slim.parquet
+
+# ── IDE / OS ──
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── GCP credentials (critical!) ──
+*.json
+!business_type_taxonomy.csv
+# re-allow specific JSON if needed:
+# !some_config.json
