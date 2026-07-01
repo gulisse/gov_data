@@ -1,5 +1,7 @@
+gov-spend/
     .gitignore  (1.2KB)
     README.md  (12B)
+    current_tree_list.txt  (0B)
     file_manifest.json  (4.9KB)
     file_manifest.md  (2.3KB)
     list_tree.py  (1.3KB)
@@ -63,10 +65,14 @@
                 ch_exact_v2.csv  (6.5MB)
                 ch_match_report.txt  (588B)
                 ch_match_report_v2.txt  (621B)
+                distinct_suppliers_clean.csv  (2.5MB)
+                distinct_suppliers_review_updated.csv  (8.8MB)
+                supplier_context.csv  (27.4MB)
     enrich_health/
     enrich_schools/
     enrich_taxonomy/
         README_PIPELINE.md  (8.6KB)
+        enrich_rules.py  (9.7KB)
         enrich_stp1_create_taxonomy_base.py  (5.4KB)
         enrich_stp1b_flag_scope.py  (3.4KB)
         enrich_stp2_create_batch_source_files.py  (7.4KB)
@@ -74,6 +80,10 @@
         enrich_stp3_submit_batch_api.py  (23.5KB)
         enrich_stp4_merge_batch_results.py  (9.6KB)
         enrich_stp5_merge_to_spend.py  (5.0KB)
+        outputs/
+            tbl_taxonomy_base_enriched.csv  (74.9MB)
+            total_spend.csv  (54.4MB)
+            total_spend_base.csv  (48.5MB)
     reference/
         Companies_House_companies_list.csv  (2.7GB)
         business_rules.md  (1.2KB)
