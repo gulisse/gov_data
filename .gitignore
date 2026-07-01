@@ -33,12 +33,23 @@ ch_no_match.csv
 ch_match_report.txt
 
 # ── Large data files (too big for git) ──
-Normalized_spend.csv
+# Normalized_spend.csv
+# Normalized_spend_raw.csv
+supplier_overrides.csv
 Companies_House_companies_list.csv
 total_spend_base.csv
 *.parquet
 *.npz
 ch_slim.parquet
+# exclude from acquisition
+/acquisition/raw/
+/acquisition/clean/
+/acquisition/outputs/
+# exclude from enrich_taxonomy
+ /enrich_taxonomy/outputs/
+# exclude frm enrich_companies
+ /enrich_companies/analysis/outputs/
+
 
 # ── analysis files 
 analysis.txt
