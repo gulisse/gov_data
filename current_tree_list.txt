@@ -1,0 +1,95 @@
+    .gitignore  (1.2KB)
+    README.md  (12B)
+    file_manifest.json  (4.9KB)
+    file_manifest.md  (2.3KB)
+    list_tree.py  (1.3KB)
+    locate_project_files.py  (10.5KB)
+    acquisition/
+        clean_supplier_prefixes.py  (3.1KB)
+        stp_1_download_all_boroughs.py  (64.2KB)
+        stp_2_build_metadata.py  (11.4KB)
+        stp_3_check_AMOD_header.py  (17.3KB)
+        stp_4_clean_borough_files.py  (58.8KB)
+        stp_5_scan_clean_boroughs.py  (23.7KB)
+        stp_6_normalize_boroughs.py  (72.0KB)
+        stp_7_clean_suppliers.py  (30.5KB)
+        clean/
+        inputs/
+            borough_header_summary_MASTER.xlsx  (780.0KB)
+            borough_header_summary_MASTER_V2.xlsx  (812.6KB)
+            candidate_acronyms.csv  (178.2KB)
+            supplier_overrides.csv  (9.0MB)
+        outputs/
+            normalized_spend.csv  (1.7GB)
+            normalized_spend_raw.csv  (2.3GB)
+            supplier_changes_audit.csv  (4.1MB)
+        raw/
+    athena/
+    docs/
+        README_PIPELINE.md  (3B)
+    enrich_charities/
+    enrich_companies/
+        CH_MATCHING_HANDOFF.md  (28.6KB)
+        CH_MATCHING_HANDOFF_v2.md  (19.1KB)
+        bt_README.md  (10.4KB)
+        bt_companies_house_enrichment_DESIGN.md  (14.4KB)
+        bt_stp0_classify_suppliers.py  (15.3KB)
+        bt_stp1_build_supplier_context.py  (6.6KB)
+        bt_stp1b_ch_match.py  (26.8KB)
+        bt_stp1c_ch_disambig.py  (9.1KB)
+        bt_stp1d_ch_resolve.py  (13.5KB)
+        bt_stp2_create_batch_files.py  (9.7KB)
+        bt_stp3_submit.py  (21.7KB)
+        bt_stp4_merge_results.py  (9.3KB)
+        build_ch_token_index.py  (4.5KB)
+        ch_slim.parquet  (279.2MB)
+        ch_token_index.npz  (99.4MB)
+        clean_supplier_prefixes.py  (3.1KB)
+        distinct_suppliers_clean.csv  (2.5MB)
+        distinct_suppliers_review_updated.csv  (8.8MB)
+        analysis/
+            analysis.txt  (1.0KB)
+            analysis2.txt  (1.1KB)
+            check_labels.py  (8.0KB)
+            diagnose_ch_match.py  (4.7KB)
+            diagnose_ch_recall.py  (38.9KB)
+            test_normalise.py  (1.4KB)
+            labels/
+                ch_label_sample_v1.csv  (41.3KB)
+            outputs/
+                ch_candidates.csv  (7.4MB)
+                ch_candidates_v2.csv  (6.4MB)
+                ch_exact.csv  (5.7MB)
+                ch_exact_v2.csv  (6.5MB)
+                ch_match_report.txt  (588B)
+                ch_match_report_v2.txt  (621B)
+    enrich_health/
+    enrich_schools/
+    enrich_taxonomy/
+        README_PIPELINE.md  (8.6KB)
+        enrich_stp1_create_taxonomy_base.py  (5.4KB)
+        enrich_stp1b_flag_scope.py  (3.4KB)
+        enrich_stp2_create_batch_source_files.py  (7.4KB)
+        enrich_stp3_check_job.py  (9.8KB)
+        enrich_stp3_submit_batch_api.py  (23.5KB)
+        enrich_stp4_merge_batch_results.py  (9.6KB)
+        enrich_stp5_merge_to_spend.py  (5.0KB)
+    reference/
+        Companies_House_companies_list.csv  (2.7GB)
+        business_rules.md  (1.2KB)
+        business_type_taxonomy.csv  (4.3KB)
+        priority_rules.md  (2.9KB)
+        publisheduksicsummaryofstructureworksheet.xlsx  (152.0KB)
+        taxonomy.csv  (45.9KB)
+    review/
+        distinct_suppliers_review_updated.csv  (8.8MB)
+        grtr_than_3million_audited.csv  (589.0KB)
+    samples/
+        Companies_House_companies_list_sample.csv  (3.7MB)
+        distinct_suppliers_clean.csv  (2.5MB)
+        normalized_spend_tail_sample.csv  (2.2MB)
+        total_spend_base_sample_top10rows.csv  (1.5KB)
+    shared/
+        ch_token_index.py  (2.4KB)
+        config.py  (8.4KB)
+        utils.py  (6.5KB)
