@@ -46,9 +46,9 @@ ch_slim.parquet
 /acquisition/clean/
 /acquisition/outputs/
 # exclude from enrich_taxonomy
- /enrich_taxonomy/outputs/
+/enrich_taxonomy/outputs/
 # exclude frm enrich_companies
- /enrich_companies/analysis/outputs/
+/enrich_companies/analysis/outputs/
 
 
 # ── analysis files 
